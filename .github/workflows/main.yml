@@ -1,0 +1,13 @@
+name: Disable github actions
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Disable
+        run: echo "Dsiable workflow vids devops"
